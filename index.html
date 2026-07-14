@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisch Master Elite v4.0 — Авторыбалка для Roblox</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121214;
+            color: #e1e1e6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Контейнер */
+        .container {
+            max-width: 800px;
+            width: 90%;
+            background-color: #1d1d22;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            border: 1px solid #29292e;
+            margin: 40px 0;
+        }
+
+        /* Заголовки */
+        h1 {
+            color: #00e676;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #a8a8b3;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        /* Блок преимуществ */
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+            text-align: left;
+        }
+
+        .feature-card {
+            background-color: #29292e;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #00e676;
+        }
+
+        .feature-card h3 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        .feature-card p {
+            margin-bottom: 0;
+            color: #a8a8b3;
+            font-size: 0.95rem;
+        }
+
+        /* Инструкция */
+        .instructions {
+            text-align: left;
+            background-color: #141416;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .instructions h2 {
+            margin-top: 0;
+            color: #ffffff;
+            font-size: 1.4rem;
+            border-bottom: 1px solid #29292e;
+            padding-bottom: 10px;
+        }
+
+        .instructions ol {
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+            color: #e1e1e6;
+        }
+
+        /* Кнопка скачивания */
+        .download-btn {
+            display: inline-block;
+            background-color: #00e676;
+            color: #0c0c0d;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 230, 118, 0.3);
+            margin-top: 20px;
+        }
+
+        .download-btn:hover {
+            background-color: #00b359;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 230, 118, 0.5);
+        }
+
+        /* Подвал */
+        footer {
+            margin-top: 20px;
+            color: #737380;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎣 Fisch Master Elite v4.0</h1>
+        <p class="subtitle">Умный полностью автоматизированный макрос для Roblox Fisch на AutoHotkey</p>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>🔍 Встроенная Пипетка</h3>
+                <p>Выбирайте цвет полоски и рыбки прямо с экрана одним кликом мыши. Никаких сложных настроек вручную!</p>
+            </div>
+            <div class="feature-card">
+                <h3>⚖️ Точное Удержание</h3>
+                <p>Умный алгоритм вычисляет расстояние до рыбки и использует микро-клики для идеального баланса.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🇷🇺/🇺🇸 Мультиязычность</h3>
+                <p>Интерфейс мгновенно переключается между русским и английским языками прямо во время работы.</p>
+            </div>
+            <div class="feature-card">
+                <h3>⚙️ Полный автомат</h3>
+                <p>Макрос сам закидывает удочку, ждет поклевку, прожимает стадию "Shake" и вытягивает рыбу.</p>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h2>Быстрый старт:</h2>
+            <ol>
+                <li>Установите официальную программу <strong>AutoHotkey v1.1</strong> на свой компьютер.</li>
+                <li>Скачайте файл макроса по кнопке ниже и запустите его.</li>
+                <li>Нажмите кнопку <strong>«Калибровка» (F4)</strong> и укажите левую и правую границы шкалы в игре.</li>
+                <li>Используйте кнопки пипетки, чтобы выбрать цвета полоски и рыбки.</li>
+                <li>Нажмите <strong>«Сохранить и активировать»</strong>, забросьте удочку и запустите макрос клавишей <strong>F1</strong>!</li>
+            </ol>
+        </div>
+
+        <a href="Fisch_Master_v4_Multilang.ahk" class="download-btn" download>Скачать макрос (.ahk)</a>
+
+        <footer>
+            <p>Создано для комфортной игры. Используйте на свой страх и риск. v4.0 Multilang</p>
+        </footer>
+    </div>
+
+</body>
+</html>
